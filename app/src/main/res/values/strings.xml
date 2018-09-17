@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">NavigationDrawerApp</string>
+    <string name="drawer_open">Açık</string>
+    <string name="drawer_close">Kapalı</string>
 </resources>

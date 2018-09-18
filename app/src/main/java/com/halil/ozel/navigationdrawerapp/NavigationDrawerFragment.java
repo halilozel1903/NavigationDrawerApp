@@ -44,6 +44,28 @@ public class NavigationDrawerFragment extends Fragment {
         mdrawerLayout = drawerLayout;
         mDrawerToggle = new ActionBarDrawerToggle(getActivity(),mdrawerLayout,toolbar,R.string.drawer_open,R.string.drawer_close);
 
+        mdrawerLayout.addDrawerListener(new DrawerLayout.DrawerListener() {
+            @Override
+            public void onDrawerSlide(@NonNull View view, float v) {
+                mDrawerToggle.onDrawerSlide(view,v);
+            }
+
+            @Override
+            public void onDrawerOpened(@NonNull View view) {
+
+            }
+
+            @Override
+            public void onDrawerClosed(@NonNull View view) {
+
+            }
+
+            @Override
+            public void onDrawerStateChanged(int i) {
+
+            }
+        });
+
         mdrawerLayout.post(new Runnable() {
             @Override
             public void run() {

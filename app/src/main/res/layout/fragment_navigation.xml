@@ -18,7 +18,7 @@
             android:layout_centerInParent="true"
             android:scaleType="fitXY"
 
-            android:src="@drawable/gnu_linux" />
+            android:src="@drawable/newpic" />
 
     </RelativeLayout>
 

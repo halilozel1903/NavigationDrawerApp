@@ -45,7 +45,7 @@ public class NavigationDrawerItem {
         };
     }
 
-    private static String[] getBasliklar(){
+    public static String[] getBasliklar(){
         return new String[]{"Linux Komutları","Linux Dosya Yapısı","Linux Dağıtımları","Linux VS Windows"};
     }
 }

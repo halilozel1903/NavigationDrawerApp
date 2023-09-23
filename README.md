@@ -1,2 +1,2 @@
 # Navigation Drawer App 🪅
-It's a project about using Navigation Drawer.
+It's a project about using Navigation Drawer For Android.
